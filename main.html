@@ -1,18 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<style>
-		.container{
-			display: flex;
-			flex-direction: row;
-			flex-wrap: wrap;
-		}
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            height: 100vh;
+            font-family: 'Dancing Script', cursive;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            background-color: #D9D9D9;
+            height: 600px;
+            width: 600px;            
+            margin: auto;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+        }
+        .item{
+            background-color: aliceblue;
+            border: 1px solid black;
+            height: 150px;
+            width: 150px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        h1{
+            font-size: 80px;
+            margin: 0px;
+        }
+
+    </style>
 </head>
 <body>
-	<div class="container"></div>
+    <div class="container">
+        <div class="item"><h1>A</h1></div>
+        <div class="item"><h1>B</h1></div>
+        <div class="item"><h1>C</h1></div>
+        <div class="item"><h1>D</h1></div>
+        <div class="item"><h1>E</h1></div>
+        <div class="item"><h1>F</h1></div>
+        <div class="item"><h1>G</h1></div>
+        <div class="item"><h1>H</h1></div>
+        <div class="item"><h1>I</h1></div>
+    </div>
 </body>
 </html>
